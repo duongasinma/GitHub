@@ -34,7 +34,7 @@ public class MathUtilityTest {
     //va ta can test xem, ngoai le co dc nem ra ko neu ta sai-> ham dung
     //thay ngoai le khi sai -> mung vi ham dung
     //
-    @Test//(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     //co dung khi chay ham nay thi nem ra ngoai le cung ten-> XANH
     public void testFactorialWrongArgumentThrowException(){
         // test tinh huong ham phai nem ra ngoai le neu tham so sai
